@@ -1,14 +1,17 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
+import Image from 'next/image'
 
 function Dev() {
   return (
     <Carousel variant="dark">
       <Carousel.Item>
-        <img
+        <Image
           className="d-block w-100"
-          src="public/POLP.png"
+          src="/../public/polp.png"
           alt="First"
+          height={400}
+          width={800}
         />
         <Carousel.Caption>
           <h5>First slide label</h5>

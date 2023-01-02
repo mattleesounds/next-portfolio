@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* ----- Hero.jsx ---------- */
 .hero-sect {
@@ -80,7 +83,7 @@
 
 /* ----- Sounds.jsx ---------- */
 .sound-sect {
-  height: 400px;
+  height: 200px;
   position: relative;
   color: #c2c0c0;
   background-color: black;
@@ -95,10 +98,35 @@ h2 {
 
 .sound {
   height: 100%;
-  width: 16.6%;
+  width: 16.6666667%;
   border-style: solid;
   border-color: white;
 }
+
+#s1 {
+  background-color: #B4EDD2;
+}
+
+#s2 {
+  background-color: #A0CFD3;
+}
+
+#s3 {
+  background-color: #97B2C7;
+}
+
+#s4 {
+  background-color: #8D94BA;
+}
+
+#s5 {
+  background-color: #9A7AA0;
+}
+
+#s6 {
+  background-color: #87677B;
+}
+
 
 
 /* ----- Dev.jsx ---------- */
@@ -121,4 +149,21 @@ h2 {
   background-color: black;
   z-index: 1;
   width: 100%;
+}
+
+/* ----- Dev2.js ---------- */
+
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  height: 500px;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  /* background-image: url("/Users/matthewlee/projects/next-portfolio/public/POLP.png"); */
 }
