@@ -10,8 +10,7 @@ export default function Home() {
     <main>
       <Hero />
       <Particle />
-      <Sounds />
-      <Dev />
+
     </main>
   )
 }
