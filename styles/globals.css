@@ -5,16 +5,16 @@
 
 /* ----- Hero.jsx ---------- */
 .hero-sect {
-  position: relative;
-  min-height: 700px;
+  /*   position: flex; */
+  /*  min-height: 700px; */
 }
 
 .title {
-  text-align: center;
+  /*  text-align: center;
   color: #c2c0c0;
   font-family: 'Baloo 2', 'Inter';
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 50px; */
 }
 
 .hero-div {

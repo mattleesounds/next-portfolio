@@ -1,12 +1,21 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import '../styles/globals.css'
-import { useEffect } from 'react'
+import { Baloo_2, Montserrat } from '@next/font/google'
+
+const baloo = Baloo_2({
+  subsets: ['latin'],
+  variable: '--font-baloo',
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+})
+
 
 export default function App({ Component, pageProps }) {
-
-  useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, []);
-
-  return <Component {...pageProps} />
+  return (
+    <main className={[`${baloo.variable} font-baloo`, `${montserrat.variable} font-montserrat`]}>
+      <Component {...pageProps} />
+    </main>
+  )
 }

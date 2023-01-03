@@ -17,9 +17,9 @@ const Particle = () => {
     await console.log(container);
   }, []);
   return (
-    <section class="particles-sect">
+    <section className="particles-sect">
       <Particles
-        class="particles"
+        clasName="particles"
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
