@@ -1,9 +1,6 @@
 import Creations from "./components/Creations"
 import Particle from "./components/Particle"
-import Blog from "./components/Blog"
-import Sounds from "./components/Sounds"
-import Dev from "./components/Dev"
-import Dev2 from "./components/Dev2"
+import Gradiant from "./components/Gradient"
 import Head from "next/head"
 import Navbar from "./components/Navbar"
 
@@ -18,7 +15,9 @@ export default function Home() {
       <Navbar />
       <Creations />
       <Particle />
-      <Sounds />
+      <div className="fixed bottom-0 left-0 right-0">
+        <Gradiant style="bottom-gradiant" />
+      </div>
     </main>
 
   )

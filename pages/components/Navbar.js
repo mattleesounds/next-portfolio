@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import Gradiant from './Gradient'
 
 const Navbar = () => {
   const [nav, setNav] = React.useState(false)
@@ -10,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed left-0 top-0 z-10 w-full">
+    <div className="fixed left-0 top-0 z-10 w-full bg-gray-dark">
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-gray-lighter ease-in duration-300">
         <Link href="/">
           <h1 className="font-bold text-4xl">Matt Lee</h1>
@@ -20,13 +21,13 @@ const Navbar = () => {
             <Link href="/">Creations</Link>
           </li>
           <li className="p-4">
-            <Link href="/">About</Link>
+            <Link href="/About">About</Link>
           </li>
           <li className="p-4">
-            <Link href="/">Socials</Link>
+            <Link href="/Socials">Socials</Link>
           </li>
           <li className="p-4">
-            <Link href="/">Blog</Link>
+            <Link href="https://paragraph.xyz/@matt">Blog</Link>
           </li>
         </ul>
 
@@ -47,17 +48,18 @@ const Navbar = () => {
               <Link href="/">Creations</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/">About</Link>
+              <Link href="/About">About</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/">Socials</Link>
+              <Link href="/Socials">Socials</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/">Blog</Link>
+              <Link href="https://paragraph.xyz/@matt">Blog</Link>
             </li>
           </ul>
         </div>
       </div>
+      <Gradiant style="nav-gradiant" />
     </div>
   )
 }

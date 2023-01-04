@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Card = (props) => {
   return (
-    <a href="https://polp.app/">
+    <a href={props.link}>
       <div className="max-w-md flex bg-gray-dark m-6 rounded border-solid border-2 border-gray-light">
         <div className=" w-3/6 relative h-52 bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden m-1" title="polp">
           <Image style={{ objectFit: 'contain' }}
