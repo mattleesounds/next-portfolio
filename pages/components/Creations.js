@@ -3,9 +3,9 @@ import React from 'react'
 
 import Card from './Card'
 
-const Hero = () => {
+const Creations = () => {
   return (
-    <section className="hero-sect">
+    <section className="hero-sect mt-[300px]">
       {/* <div className="text-center text-gray-light font-baloo">
         <h1 className="text-3xl font-bold ">Hello</h1>
 
@@ -18,7 +18,7 @@ const Hero = () => {
         <Card
           image="/buddha.png"
           title="Buddha Says"
-          descr="An OpenAI-based application that allows you to speak to the buddha. Namaste." />
+          descr="An OpenAI-based web application that allows you to speak to the buddha. Namaste." />
       </div>
       <div className="flex flex-col md:flex-row mb-16">
         <Card
@@ -35,4 +35,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Creations
