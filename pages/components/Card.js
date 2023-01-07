@@ -11,6 +11,7 @@ const Card = (props) => {
             src={props.image}
             fill
             quality={100}
+            alt={props.alt}
           />
         </div>
         {/* <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
