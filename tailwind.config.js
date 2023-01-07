@@ -30,6 +30,7 @@ module.exports = {
       fontFamily: {
         baloo: ['var(--font-baloo)', 'sans-serif'],
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
+        coda: ['var(--font-coda)'],
       },
     },
   },

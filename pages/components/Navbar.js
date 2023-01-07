@@ -14,19 +14,19 @@ const Navbar = () => {
     <div className="fixed left-0 top-0 z-10 w-full bg-gray-dark">
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-gray-lighter ease-in duration-300">
         <Link href="/">
-          <h1 className="font-bold text-4xl">Matt Lee</h1>
+          <h1 className="font-coda font-bold text-4xl text-opacity-0 text-gray bg-clip-text bg-gradient-to-r from-[#A0CFD3] to-[#9A7AA0]">Matt Lee</h1>
         </Link>
-        <ul className="hidden md:flex">
-          <li className="p-4">
+        <ul className="hidden md:flex font-coda text-gray-lighter">
+          <li className="p-4 hover:text-[#B4EDD2]">
             <Link href="/">Creations</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-[#97B2C7]">
             <Link href="/About">About</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-[#8D94BA]">
             <Link href="/Socials">Socials</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-[#9A7AA0]">
             <Link href="https://paragraph.xyz/@matt">Blog</Link>
           </li>
         </ul>
@@ -44,16 +44,16 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            <li className="p-4 text-4xl hover:text-[#B4EDD2]">
               <Link href="/">Creations</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            <li className="p-4 text-4xl hover:text-[#97B2C7]">
               <Link href="/About">About</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            <li className="p-4 text-4xl hover:text-[#8D94BA]">
               <Link href="/Socials">Socials</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            <li className="p-4 text-4xl hover:text-[#9A7AA0]">
               <Link href="https://paragraph.xyz/@matt">Blog</Link>
             </li>
           </ul>

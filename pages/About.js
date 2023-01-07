@@ -8,14 +8,21 @@ const About = () => {
     <section>
       <Navbar />
       <div className="h-full">
-        <div className="text-center text-gray-light font-baloo mt-[125px]">
-          <h1 className="text-3xl font-bold ">About</h1>
-          <p className="m-5 mb-11">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate vestibulum consequat. Vivamus consectetur pharetra erat, sed venenatis mauris pulvinar et. Vivamus vel sollicitudin est. Aliquam vel eros pulvinar, dignissim ex semper, auctor lectus. Cras ut ante tellus. Suspendisse maximus dictum nisl, et pellentesque justo suscipit ac. Aenean vitae purus non felis accumsan efficitur. Mauris imperdiet enim ut ex blandit tincidunt. Maecenas ac erat in turpis blandit tincidunt at vitae dui. Proin convallis leo eu magna ultrices, et laoreet massa fermentum. In nec ullamcorper magna.
+        <div className="text-center text-gray-light  mt-[125px]">
+          <h1 className="text-3xl font-bold font-coda">About</h1>
+          <div className="bg-gray-dark m-6 mb-20 p-2 rounded lg:ml-40 lg:mr-40">
+            <p className="m-5 mb-11 font-montserrat text-gray-lighter text-left leading-6">
+              Hello! I am Matt Lee, a software developer who specializes in JavaScript, React, and programs that interact with the Ethereum blockchain. I am also passionate about music technology. I grew up in New Orleans and have been a musician since I was 8. Although my passions have shifted as I travel through the journey of life, creativity has always been a core part of what I enjoy and feel is meaningful. There is no greater joy to me than working hard to bring something into existence that was not there before, whether it is a website, an algorithm, a song, or a portable drum set design.
+            </p>
 
-            Praesent vehicula ex sed lacus placerat maximus. Integer ligula diam, convallis id facilisis non, feugiat non velit. Etiam eget nisl sapien. Fusce id mauris eu ante tincidunt maximus non non diam. Quisque id purus vel sem gravida ullamcorper. Donec nec laoreet turpis, nec auctor tortor. Aenean ac felis vel dui laoreet blandit.
+            <p className="m-5 mb-11 font-montserrat text-gray-lighter text-left leading-6">
+              I believe that technology has the potential to make the world a better place to live in, but only if things are carefully steered in that direction. This is why it is so important to me to build things that bring enable more creativity, freedom, and access for many people.
+            </p>
 
-          </p>
+            <p className="m-5 mb-11 font-montserrat text-gray-lighter text-left leading-6">
+              I have a degree in music industry studies, and was a live sound engineer for many years, which is where my interest in technology began. From there I took some computer science classes at the University of New Orleans, worked very hard to apply myself to coding, before finally landing a software engineering apprenticeship at Revelry Labs. At Revelry, I gained a huge wealth of knowledge about web development, smart contracts, and art generation. Right after completing my apprenticeship I entered a 48-hour hackathon/pitch competition organized by Idea Village, a startup accelerator in New Orleans. Not was I able to form an awesome team around an idea I had been working on called Proof of Listenership Platform(POLP), but we won the whole thing! Winning the event led to continued work on POLP, along with help from Idea Village and a free membership in a co-working space. I am now working on POLP, as well as other fun coding projects and looking for other part/full time opportunities to further my experience.
+            </p>
+          </div>
         </div>
 
         <Particle />
@@ -24,7 +31,7 @@ const About = () => {
         </div>
       </div>
 
-    </section>
+    </section >
   )
 }
 

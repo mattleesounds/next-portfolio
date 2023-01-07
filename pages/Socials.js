@@ -9,7 +9,7 @@ const Socials = () => {
   return (
     <section>
       <Navbar />
-      <div className="text-center text-gray-light font-baloo mt-[125px]">
+      <div className="text-center text-gray-light font-coda mt-[125px]">
         <h1 className="text-3xl font-bold ">Socials</h1>
       </div>
       <div className="flex-col ">
