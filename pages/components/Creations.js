@@ -19,6 +19,7 @@ const Creations = () => {
             descr="An application to stream user-generated audio content that incentivizes active music discovery"
             link="https://polp.app"
             tech="Svelte.js"
+            alt="Image for POLP"
           />
           <Card
             image="/buddha.png"
@@ -26,6 +27,7 @@ const Creations = () => {
             descr="An OpenAI-based web application that allows you to speak to the buddha. Namaste."
             link="https://github.com/mattleesounds/buddhasays"
             tech="Next.js, OpenAI API"
+            alt="Image of Buddha"
           />
         </div>
         <div className="flex flex-col md:flex-row mb-16 justify-center">
@@ -35,6 +37,7 @@ const Creations = () => {
             descr="Stream music Prove listenership after listening to 30 seconds of each song by signing a message with your MetaMask wallet"
             link="https://github.com/Proof-of-Listenership-Protocol/MVPv1"
             tech="Ethers.js, Supabase"
+            alt="Image for POLP proof of concept"
           />
           <Card
             image="/color-chords.png"
@@ -42,6 +45,7 @@ const Creations = () => {
             descr="Push the button to randomly generate a color, which then is used to play a chord based on the color with Tone.js."
             link="https://github.com/mattleesounds/color-chords"
             tech="Tone.js"
+            alt="Image for Color Chords"
           />
         </div>
       </div>
