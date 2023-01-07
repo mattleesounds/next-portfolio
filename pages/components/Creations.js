@@ -14,7 +14,7 @@ const Creations = () => {
       <div >
         <div className="flex flex-col md:flex-row justify-center">
           <Card
-            image="/POLP.png"
+            image="/POLP2.png"
             title="POLP"
             descr="An application to stream user-generated audio content that incentivizes active music discovery"
             link="https://polp.app"
