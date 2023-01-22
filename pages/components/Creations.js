@@ -13,13 +13,13 @@ const Creations = () => {
       {/* Cards */}
       <div >
         <div className="flex flex-col md:flex-row justify-center">
-          <Card
-            image="/POLP2.png"
-            title="POLP"
-            descr="An application to stream user-generated audio content that incentivizes active music discovery"
-            link="https://polp.app"
-            tech="Svelte.js"
-            alt="Image for POLP"
+        <Card
+            image="/color-chords.png"
+            title="Color Chords"
+            descr="Push the button to randomly generate a color, which then is used to play a chord based on the color with Tone.js."
+            link="https://color-chords.vercel.app/"
+            tech="Tone.js"
+            alt="Image for Color Chords"
           />
           <Card
             image="/buddha.png"
@@ -30,7 +30,7 @@ const Creations = () => {
             alt="Image of Buddha"
           />
         </div>
-        <div className="flex flex-col md:flex-row mb-16 justify-center">
+        <div className="flex flex-col md:flex-row mb-16 justify-center">      
           <Card
             image="/polp-icon.png"
             title="POLP Proof of Concept"
@@ -40,12 +40,12 @@ const Creations = () => {
             alt="Image for POLP proof of concept"
           />
           <Card
-            image="/color-chords.png"
-            title="Color Chords"
-            descr="Push the button to randomly generate a color, which then is used to play a chord based on the color with Tone.js."
-            link="https://color-chords.vercel.app/"
-            tech="Tone.js"
-            alt="Image for Color Chords"
+            image="/POLP2.png"
+            title="POLP"
+            descr="An application to stream user-generated audio content that incentivizes active music discovery"
+            link="https://polp.app"
+            tech="Svelte.js"
+            alt="Image for POLP"
           />
         </div>
       </div>
