@@ -6,7 +6,7 @@ const Card = (props) => {
     <a href={props.link} >
       <div className="max-w-md flex bg-gray-dark m-6 rounded
        border-solid border-2 border-gray-light hover:border-[#B4EDD2]">
-        <div className=" w-3/6 relative h-52 bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden m-1 cursor-pointer" title="polp">
+        <div className=" w-3/6 relative h-52 bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden m-1 cursor-pointer" title={props.title}>
           <Image style={{ objectFit: 'contain' }}
             src={props.image}
             fill
