@@ -20,9 +20,6 @@ const Navbar = () => {
           <li className="p-4 hover:text-[#B4EDD2]">
             <Link href="/">Creations</Link>
           </li>
-          <li className="p-4 hover:text-[#97B2C7]">
-            <Link href="/About">About</Link>
-          </li>
           <li className="p-4 hover:text-[#8D94BA]">
             <Link href="/Socials">Socials</Link>
           </li>
@@ -46,9 +43,6 @@ const Navbar = () => {
           <ul>
             <li className="p-4 text-4xl hover:text-[#B4EDD2]">
               <Link href="/">Creations</Link>
-            </li>
-            <li className="p-4 text-4xl hover:text-[#97B2C7]">
-              <Link href="/About">About</Link>
             </li>
             <li className="p-4 text-4xl hover:text-[#8D94BA]">
               <Link href="/Socials">Socials</Link>

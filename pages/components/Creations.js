@@ -17,7 +17,7 @@ const Creations = () => {
             image="/color-chords.png"
             title="Color Chords"
             descr="Push the button to randomly generate a color, which then is used to play a chord based on the color with Tone.js."
-            link="https://color-chords.vercel.app/"
+            link="https://www.colorchords.xyz/"
             tech="Tone.js"
             alt="Image for Color Chords"
           />
