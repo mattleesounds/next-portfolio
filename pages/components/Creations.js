@@ -24,7 +24,7 @@ const Creations = () => {
           <Card
             image="/aimusic.png"
             title="AI Music Promo"
-            descr="An application using OpenAI's API to generate promotional instagram posts for music releases."
+            descr="An application using OpenAI's API to generate promotional instagram posts for music releases. Future integration with POLP."
             link="https://aimusicpromo.com/"
             tech="OpenAI API, Next.js, Tailwind CSS, Amazon Cognito"
             alt="Image for POLP"
